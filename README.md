@@ -1,1 +1,1 @@
-# matEcological-Footprint-Analysis
+# Ecological-Footprint-Analysis
