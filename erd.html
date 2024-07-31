@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ERD Diagram with Zoom and Pan</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg-pan-zoom/3.6.1/svg-pan-zoom.min.js"></script>
+    <style>
+        html, body {
+            inline-size: 100%;
+            block-size: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        svg {
+            inline-size: 100%;
+            block-size: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="svg-container">
+        <!-- The SVG content will be loaded here -->
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var container = document.getElementById("svg-container");
+            fetch("erd_diagram_with_relationships.svg")
+                .then(response => response.text())
+                .then(svgContent => {
+                    container.innerHTML = svgContent;
+                    svgPanZoom(container.querySelector("svg"), {
+                        zoomEnabled: true,
+                        controlIconsEnabled: true
+                    });
+                });
+        });
+    </script>
+</body>
+</html>
