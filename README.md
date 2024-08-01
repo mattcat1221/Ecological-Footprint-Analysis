@@ -20,6 +20,15 @@ Conservation Strategies: Developing and evaluating strategies to protect and res
 Socio-Economic Factors: Considering the social, economic, and cultural dimensions of ecological issues to ensure that solutions are equitable and feasible.
 Policy and Governance: Analyzing existing environmental policies and governance structures to recommend improvements for better ecological outcomes.
 
+Data Manipulation: We used the Pandas library to read and process the CSV file containing the SDGi data.
+
+Map Creation: We used the Folium library to create an interactive map with circle markers representing different countries and their respective SDGi values.
+
+File Handling: Python was used to read the existing HTML file, insert the generated map HTML content into it, and save the combined result to a new HTML file.
+HTML
+Webpage Structure: The HTML file serves as the structure of the webpage where the interactive map is displayed.
+Placeholder for Map: An HTML comment (<!-- Insert map here -->) was used as a placeholder in the existing HTML file to mark where the generated map HTML content should be inserted.
+
 This analysis encompasses various aspects of the Earth's ecosystems, biodiversity, natural resources, and human impacts on the environment. Our goal is to understand the complex interactions within and between natural and human systems to inform sustainable development and conservation efforts. Here are the key components of global ecological analysis:
 
 ![output!](https://github.com/user-attachments/assets/1db87fc0-2f69-4421-ac7a-80885e00a55a)
