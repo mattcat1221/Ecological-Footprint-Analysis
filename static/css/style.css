@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background: beige;
+}
+
+nav {
+    background: linear-gradient(35deg, teal 40%, black 60%);
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+#main {
+    margin: 5%;
+}
+
+#chart {
+    margin: 10%;
+}
