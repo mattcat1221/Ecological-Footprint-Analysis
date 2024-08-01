@@ -7,6 +7,14 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/global_ecological_footprint')
+def globalPrint():
+    return render_template('GlobalecoAnalysisWebpage.html')
+
+@app.route('/embeded_map')
+def map():
+    return render_template('interactive_sdgi_map.html')
+
 @app.route('/api/v1.0/ecological_data')
 def data():
     

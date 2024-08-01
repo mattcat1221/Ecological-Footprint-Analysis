@@ -3,19 +3,38 @@ body {
     background: beige;
 }
 
-nav {
+#eco-id {
     background: linear-gradient(35deg, teal 40%, black 60%);
     color: white;
     text-align: center;
     font-size: 1.5rem;
     padding: 5px;
     border-bottom: 1px solid black;
+    padding-bottom: 25px;
+}
+
+#eco-id>div>a {
+    color: white;
+    margin: 0 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+#map {
+    width: 60%;
+    height: 30vh;
+    margin: 5% 20% 0;
 }
 
 #main {
-    margin: 5%;
+    margin:20px auto 5%;
+    width: 75%;
+    text-align: center;
 }
 
 #chart {
-    margin: 10%;
+    margin: 20px 10%;
+    height: 30vh;
 }
