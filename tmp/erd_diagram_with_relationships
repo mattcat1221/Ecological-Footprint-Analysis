@@ -1,0 +1,101 @@
+digraph {
+	graph [dpi=300 ratio=fill size="40,40!"]
+	ecological_footprint [label=ecological_footprint]
+	"ecological_footprint.Unnamed: 0" [label="ecological_footprint.Unnamed: 0"]
+	ecological_footprint -> "ecological_footprint.Unnamed":" 0"
+	"ecological_footprint.Country" [label="ecological_footprint.Country"]
+	ecological_footprint -> "ecological_footprint.Country"
+	"ecological_footprint.Region" [label="ecological_footprint.Region"]
+	ecological_footprint -> "ecological_footprint.Region"
+	"ecological_footprint.SDGi" [label="ecological_footprint.SDGi"]
+	ecological_footprint -> "ecological_footprint.SDGi"
+	"ecological_footprint.Life Expectancy" [label="ecological_footprint.Life Expectancy"]
+	ecological_footprint -> "ecological_footprint.Life Expectancy"
+	"ecological_footprint.HDI" [label="ecological_footprint.HDI"]
+	ecological_footprint -> "ecological_footprint.HDI"
+	"ecological_footprint.Per Capita GDP" [label="ecological_footprint.Per Capita GDP"]
+	ecological_footprint -> "ecological_footprint.Per Capita GDP"
+	"ecological_footprint.Income Group" [label="ecological_footprint.Income Group"]
+	ecological_footprint -> "ecological_footprint.Income Group"
+	"ecological_footprint.Population (millions)" [label="ecological_footprint.Population (millions)"]
+	ecological_footprint -> "ecological_footprint.Population (millions)"
+	"ecological_footprint.Cropland Footprint" [label="ecological_footprint.Cropland Footprint"]
+	ecological_footprint -> "ecological_footprint.Cropland Footprint"
+	"ecological_footprint.Grazing Footprint" [label="ecological_footprint.Grazing Footprint"]
+	ecological_footprint -> "ecological_footprint.Grazing Footprint"
+	"ecological_footprint.Forest Product Footprint" [label="ecological_footprint.Forest Product Footprint"]
+	ecological_footprint -> "ecological_footprint.Forest Product Footprint"
+	"ecological_footprint.Carbon Footprint" [label="ecological_footprint.Carbon Footprint"]
+	ecological_footprint -> "ecological_footprint.Carbon Footprint"
+	"ecological_footprint.Fish Footprint" [label="ecological_footprint.Fish Footprint"]
+	ecological_footprint -> "ecological_footprint.Fish Footprint"
+	"ecological_footprint.Built up land" [label="ecological_footprint.Built up land"]
+	ecological_footprint -> "ecological_footprint.Built up land"
+	"ecological_footprint.Total Ecological Footprint (Consumption)" [label="ecological_footprint.Total Ecological Footprint (Consumption)"]
+	ecological_footprint -> "ecological_footprint.Total Ecological Footprint (Consumption)"
+	"ecological_footprint.Cropland" [label="ecological_footprint.Cropland"]
+	ecological_footprint -> "ecological_footprint.Cropland"
+	"ecological_footprint.Grazing land" [label="ecological_footprint.Grazing land"]
+	ecological_footprint -> "ecological_footprint.Grazing land"
+	"ecological_footprint.Forest land" [label="ecological_footprint.Forest land"]
+	ecological_footprint -> "ecological_footprint.Forest land"
+	"ecological_footprint.Fishing ground" [label="ecological_footprint.Fishing ground"]
+	ecological_footprint -> "ecological_footprint.Fishing ground"
+	"ecological_footprint.Total biocapacity" [label="ecological_footprint.Total biocapacity"]
+	ecological_footprint -> "ecological_footprint.Total biocapacity"
+	"ecological_footprint.Ecological (Deficit) or Reserve" [label="ecological_footprint.Ecological (Deficit) or Reserve"]
+	ecological_footprint -> "ecological_footprint.Ecological (Deficit) or Reserve"
+	"ecological_footprint.Number of Earths required" [label="ecological_footprint.Number of Earths required"]
+	ecological_footprint -> "ecological_footprint.Number of Earths required"
+	"ecological_footprint.Number of Countries required" [label="ecological_footprint.Number of Countries required"]
+	ecological_footprint -> "ecological_footprint.Number of Countries required"
+	ecological_footprint_by_country [label=ecological_footprint_by_country]
+	"ecological_footprint_by_country.Unnamed: 0" [label="ecological_footprint_by_country.Unnamed: 0"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Unnamed":" 0"
+	"ecological_footprint_by_country.Country" [label="ecological_footprint_by_country.Country"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Country"
+	"ecological_footprint_by_country.Region" [label="ecological_footprint_by_country.Region"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Region"
+	"ecological_footprint_by_country.SDGi" [label="ecological_footprint_by_country.SDGi"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.SDGi"
+	"ecological_footprint_by_country.Life Exectancy" [label="ecological_footprint_by_country.Life Exectancy"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Life Exectancy"
+	"ecological_footprint_by_country.HDI" [label="ecological_footprint_by_country.HDI"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.HDI"
+	"ecological_footprint_by_country.Per Capita GDP" [label="ecological_footprint_by_country.Per Capita GDP"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Per Capita GDP"
+	"ecological_footprint_by_country.Income Group" [label="ecological_footprint_by_country.Income Group"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Income Group"
+	"ecological_footprint_by_country.Population (millions)" [label="ecological_footprint_by_country.Population (millions)"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Population (millions)"
+	"ecological_footprint_by_country.Cropland Footprint" [label="ecological_footprint_by_country.Cropland Footprint"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Cropland Footprint"
+	"ecological_footprint_by_country.Grazing Footprint" [label="ecological_footprint_by_country.Grazing Footprint"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Grazing Footprint"
+	"ecological_footprint_by_country.Forest Product Footprint" [label="ecological_footprint_by_country.Forest Product Footprint"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Forest Product Footprint"
+	"ecological_footprint_by_country.Carbon Footprint" [label="ecological_footprint_by_country.Carbon Footprint"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Carbon Footprint"
+	"ecological_footprint_by_country.Fish Footprint" [label="ecological_footprint_by_country.Fish Footprint"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Fish Footprint"
+	"ecological_footprint_by_country.Built up land" [label="ecological_footprint_by_country.Built up land"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Built up land"
+	"ecological_footprint_by_country.Total Ecological Footprint (Consumption)" [label="ecological_footprint_by_country.Total Ecological Footprint (Consumption)"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Total Ecological Footprint (Consumption)"
+	"ecological_footprint_by_country.Cropland" [label="ecological_footprint_by_country.Cropland"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Cropland"
+	"ecological_footprint_by_country.Grazing land" [label="ecological_footprint_by_country.Grazing land"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Grazing land"
+	"ecological_footprint_by_country.Forest land" [label="ecological_footprint_by_country.Forest land"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Forest land"
+	"ecological_footprint_by_country.Fishing ground" [label="ecological_footprint_by_country.Fishing ground"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Fishing ground"
+	"ecological_footprint_by_country.Total biocapacity " [label="ecological_footprint_by_country.Total biocapacity "]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Total biocapacity "
+	"ecological_footprint_by_country.Ecological (Deficit) or Reserve" [label="ecological_footprint_by_country.Ecological (Deficit) or Reserve"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Ecological (Deficit) or Reserve"
+	"ecological_footprint_by_country.Number of Earths required" [label="ecological_footprint_by_country.Number of Earths required"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Number of Earths required"
+	"ecological_footprint_by_country.Number of Countries required" [label="ecological_footprint_by_country.Number of Countries required"]
+	ecological_footprint_by_country -> "ecological_footprint_by_country.Number of Countries required"
+}
