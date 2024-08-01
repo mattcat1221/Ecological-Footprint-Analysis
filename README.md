@@ -18,7 +18,7 @@ This analysis encompasses various aspects of the Earth's ecosystems, biodiversit
 - [License](#license)
 - [Features](#features)
 
-- [Contact](#contact)
+- [Contact](caseyvmatthews@gmail.com)
 
 ## Installation
 TSQL, Plotly, Pandas, Folium, requests
