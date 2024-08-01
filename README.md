@@ -8,7 +8,8 @@
 ## Description
 This analysis encompasses various aspects of the Earth's ecosystems, biodiversity, natural resources, and human impacts on the environment. Our goal is to understand the complex interactions within and between natural and human systems to inform sustainable development and conservation efforts. Here are the key components of global ecological analysis:
 
-![app_image]output!.png)
+![output!](https://github.com/user-attachments/assets/1db87fc0-2f69-4421-ac7a-80885e00a55a)
+
 
 ## Table of Contents
 - [Installation](#installation)
