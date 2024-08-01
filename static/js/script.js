@@ -35,7 +35,10 @@ const init = async () => {
             {
                 x: selCountries,
                 y: selValues,
-                type: 'bar'
+                type: 'bar',
+                marker: {
+                    color: ['green','yellow','orange']
+                }
             }
         ];
 

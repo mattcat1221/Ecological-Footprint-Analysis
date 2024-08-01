@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-    <nav>Ecological Footprint Analysis</nav>
+    <nav id="eco-id">
+        <h1>Ecological Footprint Analysis</h1>
+        <div>
+            <a href="/">Home</a>
+            <a href="/global_ecological_footprint">Ecological Footprint</a>
+            <a href="/api/v1.0/ecological_data">API</a>
+        </div>
+    </nav>
+
+    <embed id="map" src="/embeded_map" type="">
     <div id="main"></div>
 
     <script src="https://cdn.plot.ly/plotly-2.34.0.min.js" charset="utf-8"></script>
