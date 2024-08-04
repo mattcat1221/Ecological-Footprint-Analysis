@@ -3,7 +3,7 @@
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
 ## Website: 
-[website](http://127.0.0.1:5500/2023%20Ecological%20Footprint%20Analysis.html)
+[website](http://127.0.0.1:49324/ecological-footprint-analysis/templates/interactive_sdgi_map.html)
 file:///Users/cmatthews/Desktop/Data-Analyst/Projects/Ecological-Footprint-Analysis/interactive_sdgi_map.html
 
 
