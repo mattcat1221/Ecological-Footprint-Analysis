@@ -3,8 +3,8 @@
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
 ## Website: 
-[website](http://127.0.0.1:5000/)
-[working website](http://127.0.0.1:5500/webpage.html)
+[website](http://127.0.0.1:5500/2023%20Ecological%20Footprint%20Analysis.html)
+
 
 ## Description
 This project aims to perform a comprehensive Global Ecological Analysis, focusing on various aspects of the Earth's ecosystems, biodiversity, natural resources, and human impacts on the environment. The goal is to understand the complex interactions within and between natural and human systems to inform sustainable development and conservation efforts.
