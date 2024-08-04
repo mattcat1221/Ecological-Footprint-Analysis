@@ -31,7 +31,7 @@ HTML
 Webpage Structure: The HTML file serves as the structure of the webpage where the interactive map is displayed.
 Placeholder for Map: An HTML comment (<!-- Insert map here -->) was used as a placeholder in the existing HTML file to mark where the generated map HTML content should be inserted.
 
-This analysis encompasses various aspects of the Earth's ecosystems, biodiversity, natural resources, and human impacts on the environment. Our goal is to understand the complex interactions within and between natural and human systems to inform sustainable development and conservation efforts. Here are the key components of global ecological analysis:
+This analysis encompasses various aspects of the Earth's ecosystems, biodiversity, natural resources, and human impacts on the environment. Our goal is to understand the complex interactions within and between natural and human systems to inform sustainable development and conservation efforts.
 ![output!](https://github.com/user-attachments/assets/f54bd913-553d-424e-8b32-dd289cbfb4a2)
 ![output!](https://github.com/user-attachments/assets/1db87fc0-2f69-4421-ac7a-80885e00a55a)
 
