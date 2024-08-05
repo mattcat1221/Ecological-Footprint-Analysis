@@ -1,5 +1,5 @@
 # Ecological-Footprint-Analysis
-# Global Ecological Analysis
+
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
 ## Website: 
