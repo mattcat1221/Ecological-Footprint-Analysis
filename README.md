@@ -3,6 +3,7 @@
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
 ## Website: 
+https://mattcat1221.github.io/Ecological-Footprint-Analysis-mattcat1221.github.io-/
 [Interactive map](http://127.0.0.1:49324/ecological-footprint-analysis/templates/interactive_sdgi_map.html)
 [website](http://127.0.0.1:49324/GlobalEcoAnalysisWebpage.html)
 
