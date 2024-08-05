@@ -4,7 +4,7 @@
 
 ## Website: 
 [Interactive map](http://127.0.0.1:49324/ecological-footprint-analysis/templates/interactive_sdgi_map.html)
-[website](http://127.0.0.1:5500/templates/%3C!DOCTYPE%20html%3E.html)
+[website](http://127.0.0.1:49324/GlobalEcoAnalysisWebpage.html)
 
 
 
