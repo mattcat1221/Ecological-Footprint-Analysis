@@ -3,7 +3,7 @@
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
 ## Website: 
-[page](http://127.0.0.1:5000/global_ecological_footprint/interactive_sdgi_map.html)
+[page](http://127.0.0.1:5000)
 [Ecology Website](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/#website)
 
 [Ecological Analysis](http://127.0.0.1:5000/global_ecological_footprint)
