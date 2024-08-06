@@ -9,7 +9,7 @@
 
 [Eco Info Page](https://github.com/mattcat1221/Ecological-Footprint-Analysis.io)
 
-(https://github.com/mattcat1221/Ecological-Footprint-Analysis.io)
+
 
 
 
