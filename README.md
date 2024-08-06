@@ -7,7 +7,7 @@
 
 [Ecology Website](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/#website)
 
-[Ecological Analysis](http://127.0.0.1:5000/global_ecological_footprint.io)
+[Ecological Analysis](http://127.0.0.1:5500/templates/GlobalEcoAnalysisWebpage.html)
 
 
 
