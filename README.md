@@ -29,18 +29,18 @@ Conservation Strategies: Developing and evaluating strategies to protect and res
 Socio-Economic Factors: Considering the social, economic, and cultural dimensions of ecological issues to ensure that solutions are equitable and feasible.
 Policy and Governance: Analyzing existing environmental policies and governance structures to recommend improvements for better ecological outcomes.
 
-* See requirements.txt for a full list of installations * 
 
 Data Manipulation: The Pandas library was used to read and process the CSV file containing the SDGi data.
 
 Web Scraping: Mechanical soup was used to scrape information from https://www.ncei.noaa.gov/
 
-Map Creation: The Folium library was used to create an interactive map with circle markers representing different countries and their respective SDGi values.
+Map Creation: The Folium library was used to create an interactive map with circle markers representing different countries and their respective SDGi values. Launch with 
 
 File Handling: Python was used to read the existing HTML file, insert the generated map HTML content into it, and save the combined result to a new HTML file.
 HTML
 Webpage Structure: The HTML file serves as the structure of the webpage where the interactive map is displayed.
 Placeholder for Map: An HTML comment (<!-- Insert map here -->) was used as a placeholder in the existing HTML file to mark where the generated map HTML content should be inserted.
+
 
 This analysis encompasses various aspects of the Earth's ecosystems, biodiversity, natural resources, and human impacts on the environment. Our goal is to understand the complex interactions within and between natural and human systems to inform sustainable development and conservation efforts.
 ![output!](https://github.com/user-attachments/assets/f54bd913-553d-424e-8b32-dd289cbfb4a2)
@@ -61,8 +61,9 @@ This analysis encompasses various aspects of the Earth's ecosystems, biodiversit
 - [Contact](caseyvmatthews@gmail.com)
 
 ## Installation
-TSQL, Plotly, Pandas, Folium, requests, mechanicalSoup
-geopy
+TSQL, Plotly, Pandas, Folium, requests, geopy
+
+* See requirements.txt for a full list of installations *
 
 
 ## Usage
