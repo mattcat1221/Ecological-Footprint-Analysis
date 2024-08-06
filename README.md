@@ -50,7 +50,7 @@ This analysis encompasses various aspects of the Earth's ecosystems, biodiversit
 - [Contact](caseyvmatthews@gmail.com)
 
 ## Installation
-TSQL, Plotly, Pandas, Folium, requests
+TSQL, Plotly, Pandas, Folium, requests, mechanicalsoup
 geopy
 
 
