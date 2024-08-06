@@ -29,7 +29,7 @@ Conservation Strategies: Developing and evaluating strategies to protect and res
 Socio-Economic Factors: Considering the social, economic, and cultural dimensions of ecological issues to ensure that solutions are equitable and feasible.
 Policy and Governance: Analyzing existing environmental policies and governance structures to recommend improvements for better ecological outcomes.
 
-* See requirements.txt for a full list of installations  
+* See requirements.txt for a full list of installations * 
 
 Data Manipulation: The Pandas library was used to read and process the CSV file containing the SDGi data.
 
