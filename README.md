@@ -70,6 +70,7 @@ This analysis encompasses various aspects of the Earth's ecosystems, biodiversit
 TSQL, Plotly, Pandas, Folium, requests, geopy
 
 * See requirements.txt for a full list of installations *
+* https://github.com/mattcat1221/Ecological-Footprint-Analysis.io/blob/main/requirements.txt
 
 
 ## Usage
