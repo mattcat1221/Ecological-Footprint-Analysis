@@ -3,11 +3,11 @@
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
 ## Website: 
-[Github Eco page](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/#website)
+[Ecology Website](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/#website)
 
 [Ecological Analysis](http://127.0.0.1:5000/global_ecological_footprint)
 
-[Eco Info Page](https://github.com/mattcat1221/Ecological-Footprint-Analysis.io)
+[Github Eco page](https://github.com/mattcat1221/Ecological-Footprint-Analysis.io)
 
 
 
