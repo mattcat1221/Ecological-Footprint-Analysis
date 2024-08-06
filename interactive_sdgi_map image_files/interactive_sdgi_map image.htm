@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
-<head>
+<!-- saved from url=(0088)http://127.0.0.1:49324/ecological-footprint-analysis/templates/interactive_sdgi_map.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
     
         <script>
             L_NO_TOUCH = false;
@@ -11,37 +11,75 @@
     
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    <script src="./interactive_sdgi_map image_files/leaflet.js"></script>
+    <script src="./interactive_sdgi_map image_files/jquery-3.7.1.min.js"></script>
+    <script src="./interactive_sdgi_map image_files/bootstrap.bundle.min.js"></script>
+    <script src="./interactive_sdgi_map image_files/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="./interactive_sdgi_map image_files/leaflet.css">
+    <link rel="stylesheet" href="./interactive_sdgi_map image_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./interactive_sdgi_map image_files/bootstrap-glyphicons.css">
+    <link rel="stylesheet" href="./interactive_sdgi_map image_files/all.min.css">
+    <link rel="stylesheet" href="./interactive_sdgi_map image_files/leaflet.awesome-markers.css">
+    <link rel="stylesheet" href="./interactive_sdgi_map image_files/leaflet.awesome.rotate.min.css">
     
             <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
             <style>
                 #map_06e634d65046667e4188a753ec0da488 {
                     position: relative;
-                    inline-size: 100.0%;
-                    block-size: 100.0%;
-                    inset-inline-start: 0.0%;
-                    inset-block-start: 0.0%;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
                 }
                 .leaflet-container { font-size: 1rem; }
             </style>
         
 </head>
-<body>
+<body class="">
     
     
-            <div class="folium-map" id="map_06e634d65046667e4188a753ec0da488" ></div>
+            <div class="folium-map leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" id="map_06e634d65046667e4188a753ec0da488" tabindex="0" style=""><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(-368px, 122px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 19; transform: translate3d(658px, 6px, 0px) scale(1);"><img alt="" src="./interactive_sdgi_map image_files/3.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(468px, 135px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/2.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(468px, -121px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/3(1).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(212px, 135px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/3(2).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(724px, 135px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/4.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(468px, 391px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/2(1).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(212px, -121px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/2(2).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(724px, -121px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/4(1).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(212px, 391px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/4(2).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(724px, 391px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/1.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(468px, -377px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/3(3).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-44px, 135px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/3(4).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(980px, 135px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/5.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(468px, 647px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/1(1).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(212px, -377px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/1(2).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(724px, -377px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/2(3).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-44px, -121px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/2(4).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(980px, -121px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/4(3).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-44px, 391px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/4(4).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(980px, 391px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/5(1).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(212px, 647px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/5(2).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(724px, 647px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/1(3).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-44px, -377px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/1(4).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(980px, -377px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/5(3).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-44px, 647px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/5(4).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(980px, 647px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/3(5).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-300px, 135px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/3(6).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1236px, 135px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/2(5).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-300px, -121px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/2(6).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1236px, -121px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/4(5).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-300px, 391px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/4(6).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1236px, 391px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/1(5).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-300px, -377px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/1(6).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1236px, -377px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/5(5).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-300px, 647px, 0px); opacity: 1;"><img alt="" src="./interactive_sdgi_map image_files/5(6).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1236px, 647px, 0px); opacity: 1;"></div><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 18; transform: translate3d(34px, -85px, 0px) scale(2);"></div></div></div><div class="leaflet-pane leaflet-overlay-pane"><svg pointer-events="none" class="leaflet-zoom-animated" width="2074" height="1061" viewBox="195 -210 2074 1061" style="transform: translate3d(195px, -210px, 0px);"><g><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="red" fill-opacity="0.7" fill-rule="evenodd" d="M1234,140a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="orange" fill-opacity="0.7" fill-rule="evenodd" d="M757,634a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M1879,546a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="orange" fill-opacity="0.7" fill-rule="evenodd" d="M1260,527a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M824,479a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M513,9a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M711,614a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M1712,178a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M696,371a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="orange" fill-opacity="0.7" fill-rule="evenodd" d="MNaN,464aNaN,NaN 0 1,0 NaN,0 aNaN,NaN 0 1,0 NaN,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="orange" fill-opacity="0.7" fill-rule="evenodd" d="M1211,398a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M1129,97a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M1177,57a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="orange" fill-opacity="0.7" fill-rule="evenodd" d="M1569,277a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M1189,134a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M1905,176a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M536,259a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M2113,652a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="orange" fill-opacity="0.7" fill-rule="evenodd" d="M1250,580a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M1097,145a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 "></path><path class="leaflet-interactive" stroke="black" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="green" fill-opacity="0.7" fill-rule="evenodd" d="M1098,17a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 "></path></g></svg></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-marker-pane"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"><div class="leaflet-popup  leaflet-zoom-animated" style="opacity: 1; transform: translate3d(521px, 9px, 0px); bottom: -7px; left: -44px;"><div class="leaflet-popup-content-wrapper"><div class="leaflet-popup-content" style=""><div id="html_527283a0ac7e180f31d8efe97ebdb9c2" style="width: 100.0%; height: 100.0%;">Canada: SDGi 77.7</div></div></div><div class="leaflet-popup-tip-container"><div class="leaflet-popup-tip"></div></div><a class="leaflet-popup-close-button" role="button" aria-label="Close popup" href="http://127.0.0.1:49324/ecological-footprint-analysis/templates/interactive_sdgi_map.html#close"><span aria-hidden="true">×</span></a></div></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(1130px, 947px, 0px) scale(4);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="http://127.0.0.1:49324/ecological-footprint-analysis/templates/interactive_sdgi_map.html#" title="Zoom in" role="button" aria-label="Zoom in" aria-disabled="false"><span aria-hidden="true">+</span></a><a class="leaflet-control-zoom-out" href="http://127.0.0.1:49324/ecological-footprint-analysis/templates/interactive_sdgi_map.html#" title="Zoom out" role="button" aria-label="Zoom out" aria-disabled="false"><span aria-hidden="true">−</span></a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="https://leafletjs.com/" title="A JavaScript library for interactive maps"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" class="leaflet-attribution-flag"><path fill="#4C7BE1" d="M0 0h12v4H0z"></path><path fill="#FFD500" d="M0 4h12v3H0z"></path><path fill="#E0BC00" d="M0 7h12v1H0z"></path></svg> Leaflet</a> <span aria-hidden="true">|</span> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors</div></div></div></div>
         
-</body>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
 <script>
     
     
@@ -510,4 +548,4 @@
         
     
 </script>
-</html>
+</body></html>

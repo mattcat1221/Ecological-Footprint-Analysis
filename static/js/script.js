@@ -1,8 +1,8 @@
 
-let data; any
-let renderGraph
+let data;
+let renderGraph;;
 
-async function init() {
+async function inihttps://mattcat1221.github.io/Ecological-Footprint-Analysis-mattcat1221.github.io-/https://mattcat1221.github.io/Ecological-Footprint-Analysis-mattcat1221.github.io-/t() {
 
     data = await (await fetch('/api/v1.0/ecological_data')).json();
 
@@ -56,8 +56,8 @@ async function init() {
 }
 
 init();
-let data; any 
-let renderGraph;
+// let data; any 
+// let renderGraph;
 
 const init = async () => {
     try {
