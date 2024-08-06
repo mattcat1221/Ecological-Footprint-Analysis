@@ -42,6 +42,8 @@ Placeholder for Map: An HTML comment (<!-- Insert map here -->) was used as a pl
 This analysis encompasses various aspects of the Earth's ecosystems, biodiversity, natural resources, and human impacts on the environment. Our goal is to understand the complex interactions within and between natural and human systems to inform sustainable development and conservation efforts.
 ![output!](https://github.com/user-attachments/assets/f54bd913-553d-424e-8b32-dd289cbfb4a2)
 ![output!](https://github.com/user-attachments/assets/1db87fc0-2f69-4421-ac7a-80885e00a55a)
+![output!](https://github.com/user-attachments/assets/aa680718-817d-4047-911c-ac3e0e06db13)
+
 
 
 
