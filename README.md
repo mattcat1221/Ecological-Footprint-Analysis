@@ -1,10 +1,24 @@
 # Ecological-Footprint-Analysis
-# Global Ecological Analysis
+
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
-## Website: 
-[website](http://127.0.0.1:5000/)
-[working website](http://127.0.0.1:5500/webpage.html)
+## Websites: 
+
+[Interactive SDGI Map](http://127.0.0.1:5500/templates/interactive_sdgi_map.html) 
+
+[Ecology Website](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/#website)
+
+[Ecological Analysis](http://127.0.0.1:5500/templates/GlobalEcoAnalysisWebpage.html)
+
+[GitHub Pages](https://github.com/mattcat1221/Ecological-Footprint-Analysis.io)
+
+
+
+
+
+
+
+
 
 ## Description
 This project aims to perform a comprehensive Global Ecological Analysis, focusing on various aspects of the Earth's ecosystems, biodiversity, natural resources, and human impacts on the environment. The goal is to understand the complex interactions within and between natural and human systems to inform sustainable development and conservation efforts.
@@ -21,18 +35,26 @@ Conservation Strategies: Developing and evaluating strategies to protect and res
 Socio-Economic Factors: Considering the social, economic, and cultural dimensions of ecological issues to ensure that solutions are equitable and feasible.
 Policy and Governance: Analyzing existing environmental policies and governance structures to recommend improvements for better ecological outcomes.
 
-Data Manipulation: We used the Pandas library to read and process the CSV file containing the SDGi data.
 
-Map Creation: We used the Folium library to create an interactive map with circle markers representing different countries and their respective SDGi values.
+Data Manipulation: The Pandas library was used to read and process the CSV file containing the SDGi data.
+
+Web Scraping: Mechanical soup was used to scrape information from https://www.ncei.noaa.gov/
+
+Map Creation: The Folium library was used to create an interactive map with circle markers representing different countries and their respective SDGi values. Launch with 
 
 File Handling: Python was used to read the existing HTML file, insert the generated map HTML content into it, and save the combined result to a new HTML file.
 HTML
 Webpage Structure: The HTML file serves as the structure of the webpage where the interactive map is displayed.
 Placeholder for Map: An HTML comment (<!-- Insert map here -->) was used as a placeholder in the existing HTML file to mark where the generated map HTML content should be inserted.
 
-This analysis encompasses various aspects of the Earth's ecosystems, biodiversity, natural resources, and human impacts on the environment. Our goal is to understand the complex interactions within and between natural and human systems to inform sustainable development and conservation efforts. Here are the key components of global ecological analysis:
 
+This analysis encompasses various aspects of the Earth's ecosystems, biodiversity, natural resources, and human impacts on the environment. Our goal is to understand the complex interactions within and between natural and human systems to inform sustainable development and conservation efforts.
+![output!](https://github.com/user-attachments/assets/f54bd913-553d-424e-8b32-dd289cbfb4a2)
 ![output!](https://github.com/user-attachments/assets/1db87fc0-2f69-4421-ac7a-80885e00a55a)
+![output!](https://github.com/user-attachments/assets/aa680718-817d-4047-911c-ac3e0e06db13)
+
+
+
 
 
 ## Table of Contents
@@ -45,8 +67,10 @@ This analysis encompasses various aspects of the Earth's ecosystems, biodiversit
 - [Contact](caseyvmatthews@gmail.com)
 
 ## Installation
-TSQL, Plotly, Pandas, Folium, requests
-geopy
+TSQL, Plotly, Pandas, Folium, requests, geopy, Jekyll
+
+* See requirements.txt for a full list of installations *
+* https://github.com/mattcat1221/Ecological-Footprint-Analysis.io/blob/main/requirements.txt
 
 
 ## Usage
