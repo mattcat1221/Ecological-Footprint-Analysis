@@ -7,6 +7,10 @@
 
 [Ecological Analysis](http://127.0.0.1:5000/global_ecological_footprint)
 
+[Eco Info Page](https://github.com/mattcat1221/Ecological-Footprint-Analysis.io)
+
+(https://github.com/mattcat1221/Ecological-Footprint-Analysis.io)
+
 
 
 ## Description
