@@ -3,6 +3,7 @@
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
 ## Websites: 
+
 [Interactive SDGI Map](http://127.0.0.1:5500/templates/interactive_sdgi_map.html) 
 
 [Ecology Website](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/#website)
