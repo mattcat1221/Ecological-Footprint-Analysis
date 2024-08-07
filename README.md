@@ -5,6 +5,7 @@
 ## Websites: 
 
 
+[Homepage](https://sptrg7tt-5000.use.devtunnels.ms/global_ecological_footprint)
 
 [Interactive SDGI Map](http://127.0.0.1:5500/templates/interactive_sdgi_map.html) 
 
