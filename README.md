@@ -15,7 +15,7 @@
 
 [GitHub Pages](https://github.com/mattcat1221/Ecological-Footprint-Analysis.io)
 
-[Mobile App](https://github.com/mattcat1221/Ecological-Footprint-Analysis.io)
+[Mobile App](https://sptrg7tt-5000.use.devtunnels.ms/global_ecological_footprint)
 
 
 
