@@ -9,7 +9,7 @@
 
 [Interactive SDGI Map](http://127.0.0.1:5500/templates/interactive_sdgi_map.html) 
 
-[Ecology Website](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/#website)
+[Github Pages](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/#website)
 
 [Ecological Footprint Analysis](http://127.0.0.1:5000/global_ecological_footprint)
 
