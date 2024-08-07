@@ -1,0 +1,88 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Simple HTTP Server",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Ecological-Footprint-Analysis.io/start_server.py",
+            "console": "integratedTerminal",
+            "args": ["--directory", ".", "8000"],
+            "env": {
+                "PYTHONUNBUFFERED": "1"
+            }
+        },
+        {
+            "name": "Open Browser",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "google-chrome",
+            "program": "${workspaceFolder}/Ecological-Footprint-Analysis.io/index.html",
+            "args": ["http://localhost:8000"]
+        }
+    ]
+}
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Flask Server",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Ecological-Footprint-Analysis.io/start_server.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONUNBUFFERED": "1"
+            }
+        },
+        {
+            "name": "Open Browser",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "google-chrome",
+            "args": ["http://localhost:8000/global_ecological_footprint"]
+        },
+        {
+            "name": "Python: Run Tests",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Ecological-Footprint-Analysis.io/run_tests.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONUNBUFFERED": "1"
+            }
+        }
+    ]
+}
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Flask Server",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Ecological-Footprint-Analysis.io/start_server.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONUNBUFFERED": "1"
+            }
+        },
+        {
+            "name": "Open Browser",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "google-chrome",
+            "args": ["http://127.0.0.1:5500/templates/interactive_sdgi_map.html"]
+        },
+        {
+            "name": "Python: Run Tests",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Ecological-Footprint-Analysis.io/run_tests.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONUNBUFFERED": "1"
+            }
+        }
+    ]
+}
