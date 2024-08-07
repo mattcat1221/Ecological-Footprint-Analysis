@@ -10,11 +10,13 @@
 
 [Ecology Website](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/#website)
 
+[Ecological Footprint Analysis](http://127.0.0.1:5000/global_ecological_footprint)
+
 [Ecological Analysis](http://127.0.0.1:5500/templates/GlobalEcoAnalysisWebpage.html)
 
 [GitHub Pages](https://github.com/mattcat1221/Ecological-Footprint-Analysis.io)
 
-[App](https://github.com/mattcat1221/Ecological-Footprint-Analysis.io)
+[Mobile App](https://github.com/mattcat1221/Ecological-Footprint-Analysis.io)
 
 
 
