@@ -9,7 +9,7 @@
 
 [Github Pages](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/#website)
 
-[Ecological Footprint Analysis](https://sptrg7tt-5000.use.devtunnels.ms/global_ecological_footprint)
+[Ecological Footprint Analysis Code](https://github.com/mattcat1221/Ecological-Footprint-Analysis.io/tree/main)
 
 [Mobile App](https://sptrg7tt-5000.use.devtunnels.ms/global_ecological_footprint)
 
