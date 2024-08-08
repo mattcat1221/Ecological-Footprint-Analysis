@@ -14,9 +14,7 @@
 
 [dev link](https://sptrg7tt-5000.use.devtunnels.ms/global_ecological_footprint)
 
-
-
-
+[Power Point](https://github.com/user-attachments/files/16550084/2023.Ecological.Analysis.Powerpoint.1.pptx)
 
 
 
