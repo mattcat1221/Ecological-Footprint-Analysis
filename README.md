@@ -8,7 +8,7 @@
 
 [Github Pages](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/)
 
-[dev link](https://sptrg7tt-5000.use.devtunnels.ms/global_ecological_footprint)
+[dev link](https://95d2-73-198-185-242.ngrok-free.app/)
 
 [Power Point](https://github.com/user-attachments/files/16550084/2023.Ecological.Analysis.Powerpoint.1.pptx)
 
