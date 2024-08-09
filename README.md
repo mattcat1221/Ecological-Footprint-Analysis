@@ -6,7 +6,7 @@
 
 [SGDI Map](http://127.0.0.1:5500/templates/interactive_sdgi_map.html)
 
-[Homepage](https://sptrg7tt-5000.use.devtunnels.ms/global_ecological_footprint)
+[Dev Link](https://sptrg7tt-5000.use.devtunnels.ms/global_ecological_footprint)
 
 [Global Footprint Analysis](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/#website)
 
