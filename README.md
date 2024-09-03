@@ -6,8 +6,6 @@
 
 [SGDI Map](https://mattcat1221.github.io/interactive_sdgi_map/)
 
-[Github Pages](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/)
-
 [ngrok link](https://95d2-73-198-185-242.ngrok-free.app/)
 
 [Power Point](https://github.com/user-attachments/files/16550084/2023.Ecological.Analysis.Powerpoint.1.pptx)
