@@ -4,7 +4,7 @@
 
 ## Websites: 
 
-[SGDI Map](http://127.0.0.1:5500/templates/interactive_sdgi_map.html)
+[SGDI Map](https://mattcat1221.github.io/interactive_sdgi_map/)
 
 [Github Pages](https://mattcat1221.github.io/Ecological-Footprint-Analysis.io/)
 
